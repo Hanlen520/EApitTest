@@ -1,0 +1,130 @@
+'06/06/2018 09:51:21 PM' - INFO - 初始化环境完成#########################################################
+'06/06/2018 09:51:21 PM' - INFO - 开始测试----------------------------
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-01**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '52', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: <h1> Hell, demoUser !This is come from user.html<h1>
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: GET
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/user/demoUser
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: None
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-02**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '50', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: <h1> Hell, 123abc !This is come from user.html<h1>
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: GET
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/user/123abc
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: None
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-03**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '346', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"result":0,"msg":"success","user":{"userId":"preftest0020","password":null,"loginAccount":"preftest0020","country":0},"token":"%_SP8xYh6v9dUoFIRmMocWdQ0Uu6mD2SZmvOHBxkmUWVEYVexclYV%Tk7LeIPjn1vI%w3ywnk78LGLgBoV_N%Jj1HrFPqo5@EGQ#a8Di6p2atE6aj_4Pe9iPGJxulMa65Tc8s4zdM9Q@IZkQVZ3DfCUMjBFQ8%LTTY@1bqNaiqr1pmyeHSGJYyRS@6jyHZ5#","forbiddenEndTime":null}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: GET
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/mockToken/
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: None
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-04**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '53', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":0,"name":"zhangsan","str":"login success!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/login
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '30', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: username=zhangsan&password=123
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-05**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '33', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":-1,"str":"login fail!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/login
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '19', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: username=&password=
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-06**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: fail
+'06/06/2018 09:51:21 PM' - INFO - 断言数据: login success
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '33', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":-1,"str":"login fail!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/login
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '32', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: username=zhangsan33&password=123
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-07**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: fail
+'06/06/2018 09:51:21 PM' - INFO - 断言数据: "status":0
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '33', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":-1,"str":"login fail!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/login
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '32', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: username=zhangsan33&password=456
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-08**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '40', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":0,"str":"releId is zhangsan!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/testrele
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: releId=zhangsan
+'06/06/2018 09:51:21 PM' - INFO - *********测试case_id: mock-09**********
+'06/06/2018 09:51:21 PM' - INFO - 测试结果: pass
+'06/06/2018 09:51:21 PM' - INFO - 响应码: 200
+'06/06/2018 09:51:21 PM' - INFO - 响应头: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '40', 'Server': 'Werkzeug/0.14.1 Python/3.6.4', 'Date': 'Wed, 06 Jun 2018 13:51:21 GMT'}
+'06/06/2018 09:51:21 PM' - INFO - 响应数据: {"status":0,"str":"releId is zhangsan!"}
+'06/06/2018 09:51:21 PM' - INFO - 请求方式: POST
+'06/06/2018 09:51:21 PM' - INFO - 请求地址: http://127.0.0.1:5000/testrele
+'06/06/2018 09:51:21 PM' - INFO - 请求头: {'User-Agent': 'python-requests/2.18.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '15', 'Content-Type': 'application/x-www-form-urlencoded'}
+'06/06/2018 09:51:21 PM' - INFO - 请求数据: releId=zhangsan
+'06/06/2018 09:51:21 PM' - INFO - 
+                    ---------------------------运行结果概要统计:----------------------------
+                    测试开始时间： 2018-06-06 21_51_21
+                    测试结束时间： 2018-06-06 21_51_21
+                    测 试  耗 时： 0.08
+                    测试接口总数： 4
+                    运行的用例数： 9
+                    通过的用例数： 7
+                    失败的用例数： 2
+                    测试通过率 ： 77.78%
+                    失败的用例集： ['mock-06', 'mock-07']
+            
+'06/06/2018 09:51:21 PM' - INFO - ---------------------------运行接口详细统计:----------------------------
+'06/06/2018 09:51:21 PM' - INFO - 
+                    接口  名称： user
+                    运行用例数： 2
+                    通过用例数： 2
+                    失败用例数： 0
+                    失败用例id： None
+            
+'06/06/2018 09:51:21 PM' - INFO - 
+                    接口  名称： testrele
+                    运行用例数： 2
+                    通过用例数： 2
+                    失败用例数： 0
+                    失败用例id： None
+            
+'06/06/2018 09:51:21 PM' - INFO - 
+                    接口  名称： login
+                    运行用例数： 4
+                    通过用例数： 2
+                    失败用例数： 2
+                    失败用例id： mock-06,mock-07
+            
+'06/06/2018 09:51:21 PM' - INFO - 
+                    接口  名称： mockToken
+                    运行用例数： 1
+                    通过用例数： 1
+                    失败用例数： 0
+                    失败用例id： None
+            
+'06/06/2018 09:51:21 PM' - INFO - 用例运行结束，测试停止---------------------
+'06/06/2018 09:51:21 PM' - INFO - 开始恢复环境##########################################################
+'06/06/2018 09:51:21 PM' - INFO - 恢复环境完成##########################################################
+'06/06/2018 09:51:21 PM' - INFO - 退出程序运行..........

@@ -1,0 +1,7 @@
+{
+  "mock-04":{"username":"zhangsan","password":"123"},
+  "mock-05":{"username":"","password":""},
+  "mock-06":{"username":"zhangsan33","password":"123"},
+  "mock-07":{"username":"zhangsan33","password":"456"},
+  "mock-08":{"releId":"releIDTest"}
+}
